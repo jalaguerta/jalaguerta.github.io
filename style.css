@@ -18,7 +18,7 @@ nav {
     display: flex;
     justify-content: center;
     align-items: center;
-    background: #007bff;
+    background: #00274C;
     color: #fff;
     padding: 10px 0;
 }
@@ -49,7 +49,7 @@ header {
 
 header h1 {
     margin-bottom: 20px;
-    color: #007bff;
+    color: #00274C;
 }
 
 /* Main Content */
