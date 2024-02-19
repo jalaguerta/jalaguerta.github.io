@@ -64,6 +64,15 @@ header h1 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.profile-pic {
+    width: 100%; /* or any specific width */
+    max-width: 200px; /* limits the size, keeping the image responsive */
+    height: auto; /* maintain aspect ratio */
+    border-radius: 50%; /* circular image */
+    /* additional styling as needed */
+}
+
+
 /* Footer */
 footer {
     text-align: center;
