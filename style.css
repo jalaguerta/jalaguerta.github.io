@@ -66,9 +66,8 @@ header h1 {
 
 .profile-pic {
     width: 100%; /* or any specific width */
-    max-width: 200px; /* limits the size, keeping the image responsive */
+    max-width: 400px; /* limits the size, keeping the image responsive */
     height: auto; /* maintain aspect ratio */
-    border-radius: 50%; /* circular image */
     /* additional styling as needed */
 }
 
