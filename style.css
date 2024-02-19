@@ -98,10 +98,10 @@ header h1 {
 }
 
 .pdf-container {
-    width: 100%; /* Makes the container full width */
-    overflow: hidden; /* Prevents any overflow from the PDF */
-    padding-top: 56.25%; /* Aspect ratio padding hack (16:9) */
-    position: relative; /* For absolute positioning of the embed */
+    position: relative;
+    width: 100%;
+    /* Adjust padding-top to maintain the letter aspect ratio */
+    padding-top: 75%; /* Start with a default value */
 }
 
 .pdf-object {
