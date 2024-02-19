@@ -7,11 +7,25 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 16px; /* Default font size */
     color: #333;
     line-height: 1.6;
     padding: 20px;
     background: #f4f4f4;
 }
+
+body {
+    font-size: 16px; /* Default font size */
+}
+
+h1 {
+    font-size: 2rem; /* 32px if the body font-size is 16px */
+}
+
+p {
+    font-size: 1rem; /* 16px */
+}
+
 
 /* Navigation */
 nav {
