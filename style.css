@@ -64,6 +64,13 @@ header h1 {
     box-shadow: 0 2px 4px rgba(0,0,0,0.1);
 }
 
+.image-container {
+    display: flex;
+    justify-content: center; /* Centers horizontally */
+    align-items: center; /* Centers vertically if the container has a specified height */
+    height: 100vh; /* Example height: 100% of the viewport height. Adjust as needed. */
+}
+
 .profile-pic {
     width: 100%; /* or any specific width */
     max-width: 400px; /* limits the size, keeping the image responsive */
