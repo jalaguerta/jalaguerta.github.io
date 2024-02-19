@@ -98,7 +98,7 @@ header h1 {
 }
 
 .regular-pic {
-    width: 400; /* Adjust the width as needed */
+    width: 400px; /* Adjust the width as needed */
     height: auto; /* Maintains the aspect ratio */
     margin-top: 20px; /* Optional: adds space between the text and the image */
     margin-bottom: 20px;
