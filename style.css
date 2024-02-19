@@ -91,8 +91,21 @@ header h1 {
     text-align: center; /* Ensures text is centered as well */
 }
 
+.blog-container {
+    display: flex;
+    flex-direction: column; /* Stacks items vertically */
+    align-items: center; /* Centers items horizontally */
+    height: 100vh; /* Adjust the height as needed */
+    text-align: center; /* Ensures text is centered as well */
+}
+
 .profile-pic {
     width: 400px; /* Adjust the width as needed */
+    height: auto; /* Maintains the aspect ratio */
+    margin-top: 20px; /* Optional: adds space between the text and the image */
+}
+.blog-pic {
+    width: 100px; /* try 100px width first */
     height: auto; /* Maintains the aspect ratio */
     margin-top: 20px; /* Optional: adds space between the text and the image */
 }
